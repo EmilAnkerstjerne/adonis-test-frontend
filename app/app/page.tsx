@@ -2,7 +2,7 @@
 import { APIFetch } from "@/lib/utils";
 import { useEffect, useState } from "react";
 
-export default function Home() {
+export default function App() {
   const [user, setUser] = useState<{email: string} | null>(null)
 
   useEffect(() => {
